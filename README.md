@@ -34,12 +34,20 @@ Then, the algorithm was selected from the menu - FCFS:
 <p align="left">
   <img src="" alt="Opis obrazka" width="800"/>
 </p>
-Kolejno wybrano liczbę sumulacji:
-fota liczby symulacji 
-Podano zakresy parametrów procesów:
-fota zakresów parametrów 
-Wynik symulacji:
-fota końcowa
+Next, the number of simulations was selected:
+<p align="left">
+  <img src="" alt="Opis obrazka" width="800"/>
+</p>
+The ranges of process parameters were provided:
+<p align="left">
+  <img src="" alt="Opis obrazka" width="800"/>
+</p>
+"The result of the simulation:"
+<p align="left">
+  <img src="" alt="Opis obrazka" width="800"/>
+</p>
 
+
+\ \ \ \ \ 
 Całą operację powtórzono dla algorytmu - FIFO: 
 
