@@ -1,8 +1,8 @@
 ## WHAT IT IS?
-Jest to projekt, w ramach którego zaimplementowano dwa algorytmy planowania procesów (FCFS, LCFS) oraz dwa algorytmy stronnicowania (FIFO, LRU). Aplikacja umożliwia symulację wybranego algorytmu w konsoli. Parametry oraz liczba symulacji są wybierane przez użytkownika w menu.
-### Algorytmy planowania procesów:
-* FCFS - First Come First Serve - algorytm, w którym procesy wykonywane są w kolejności, w jakiej pojawiły się w systemie, bez względu na czas ich wykonania.  
-* LCFS - Last Come First Serve - algorytm, w którym ostatni przybyły proces jest wykonywany jako pierwszy. 
+This is a project in which two process scheduling algorithms (FCFS, LCFS) and two page replacement algorithms (FIFO, LRU) have been implemented. The application allows the user to simulate the chosen algorithm in the console. The parameters and the number of simulations are selected by the user from the menu in the terminal.
+### Process Scheduling Algorithms:
+* FCFS - First Come First Serve - an algorithm where processes are executed in the order they arrive in the system, regardless of their execution time.
+* LCFS - Last Come First Serve - an algorithm where the last arrived process is executed first. \ 
 CPU scheduling performance metrics:
 * arrival time - to moment, w którym proces pojawił się w systemie,
 * burst time - to czas, który proces potrzebuje na wykonanie wszystkich swoich instrukcji,
@@ -16,13 +16,15 @@ CPU scheduling performance metrics:
 * FIFO - First In First Out - algorytm, który decyduje, która strona powinna zostać usunięta z ramki, gdy konieczne jest zwolnienie miejsca. FIFO usuwa najstarszą stronę pamięci (tę która była w pamięci najdłużej),
 * LRU - Least Recent Used - trochę bardziej zaawansowany algorytm stronnicowania, który usuwa stronę, która była najrzadziej używana w ostatnim czasie, czyli taką, której dostępność do pamięci była najdalsza w przeszłości
 Page replacement performance metrics:
-* frame - 
-
-
+* process - program lub zadanie wykonywane przez system operacyjny. Składa się ze stron, 
+* page - część danych procesu, która jest przechowywana w ramce, 
+* frame - miejsce w pamięci, gdzie przechowywane są dane, 
 
 ## HOW TO USE IT? 
-Użytkowanie symulatora jest bardzo proste, wystarczy sklonować te repozytorim.
+Użytkowanie symulatora jest bardzo proste, wystarczy sklonować te repozytorim, uruchomić projekt oraz postępować zgodnie z komendami wyświetlanymi w konsoli.
 
+
+!!!
 ## EXAMPLE USAGE
 Po sklonowaniu repozytorim na lokalną maszynę uruchomiono symulator za pomocą komendy: 
 ```
@@ -36,3 +38,6 @@ Podano zakresy parametrów procesów:
 fota zakresów parametrów 
 Wynik symulacji:
 fota końcowa
+
+Całą operację powtórzono dla algorytmu - FIFO: 
+
