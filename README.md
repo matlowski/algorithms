@@ -14,12 +14,12 @@ This is a project in which two process scheduling algorithms (FCFS, LCFS) and tw
   * **turnaround time** - the time that has passed from the moment the process arrived to the moment it finished, \
     turnaround time = waiting time + burst time 
 ### Memory Paging Algorithms: 
-* FIFO - First In First Out - algorytm, który decyduje, która strona powinna zostać usunięta z ramki, gdy konieczne jest zwolnienie miejsca. FIFO usuwa najstarszą stronę pamięci (tę która była w pamięci najdłużej),
-* LRU - Least Recent Used - trochę bardziej zaawansowany algorytm stronnicowania, który usuwa stronę, która była najrzadziej używana w ostatnim czasie, czyli taką, której dostępność do pamięci była najdalsza w przeszłości
-Page replacement performance metrics:
-* process - program lub zadanie wykonywane przez system operacyjny. Składa się ze stron, 
-* page - część danych procesu, która jest przechowywana w ramce, 
-* frame - miejsce w pamięci, gdzie przechowywane są dane, 
+* **FIFO - First In First Out** - an algorithm that decides which page should be removed from the frame when it is necessary to free up space. FIFO removes the oldest page from memory (the one that has been in memory the longest).
+* **LRU - Least Recent Used** - a more advanced page replacement algorithm that removes the page that has been used the least recently, i.e., the one whose access to memory was the farthest in the past.
+  Page replacement performance metrics:
+  * **process** - a program or task executed by the operating system. It consists of pages, 
+  * **page** - a portion of the process's data that is stored in a frame,
+  * **frame** - a place in memory where data is stored,
 
 ## HOW TO USE IT? 
 Użytkowanie symulatora jest bardzo proste, wystarczy sklonować te repozytorim, uruchomić projekt oraz postępować zgodnie z komendami wyświetlanymi w konsoli.
