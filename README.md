@@ -4,15 +4,15 @@ This is a project in which two process scheduling algorithms (FCFS, LCFS) and tw
 * FCFS - First Come First Serve - an algorithm where processes are executed in the order they arrive in the system, regardless of their execution time.
 * LCFS - Last Come First Serve - an algorithm where the last arrived process is executed first.
   
-CPU scheduling performance metrics:
-* arrival time - to moment, w którym proces pojawił się w systemie,
-* burst time - to czas, który proces potrzebuje na wykonanie wszystkich swoich instrukcji,
-* start time - to moment, w którym proces zaczyna sie wykonywać,
-* finish time - to moment, w którym proces kończy swoje wykonywanie,
-* waiting time - to czas, który proces musiał poczekać, zanim zaczął się wykonywać,
-  waiting time = start time - arrival time  
-* turnaround time - to czas, który upłynął od momentu przybycia procesu do momentu jego zakończenia,
-  turnaround time = waiting time + burst time 
+  CPU scheduling performance metrics:
+  * arrival time - to moment, w którym proces pojawił się w systemie,
+  * burst time - to czas, który proces potrzebuje na wykonanie wszystkich swoich instrukcji,
+  * start time - to moment, w którym proces zaczyna sie wykonywać,
+  * finish time - to moment, w którym proces kończy swoje wykonywanie,
+  * waiting time - to czas, który proces musiał poczekać, zanim zaczął się wykonywać,
+    waiting time = start time - arrival time  
+  * turnaround time - to czas, który upłynął od momentu przybycia procesu do momentu jego zakończenia,
+    turnaround time = waiting time + burst time 
 ### Algorytmy stronnicowania pamięci: 
 * FIFO - First In First Out - algorytm, który decyduje, która strona powinna zostać usunięta z ramki, gdy konieczne jest zwolnienie miejsca. FIFO usuwa najstarszą stronę pamięci (tę która była w pamięci najdłużej),
 * LRU - Least Recent Used - trochę bardziej zaawansowany algorytm stronnicowania, który usuwa stronę, która była najrzadziej używana w ostatnim czasie, czyli taką, której dostępność do pamięci była najdalsza w przeszłości
