@@ -2,7 +2,8 @@
 This is a project in which two process scheduling algorithms (FCFS, LCFS) and two page replacement algorithms (FIFO, LRU) have been implemented. The application allows the user to simulate the chosen algorithm in the console. The parameters and the number of simulations are selected by the user from the menu in the terminal.
 ### Process Scheduling Algorithms:
 * FCFS - First Come First Serve - an algorithm where processes are executed in the order they arrive in the system, regardless of their execution time.
-* LCFS - Last Come First Serve - an algorithm where the last arrived process is executed first. \ 
+* LCFS - Last Come First Serve - an algorithm where the last arrived process is executed first.
+  
 CPU scheduling performance metrics:
 * arrival time - to moment, w którym proces pojawił się w systemie,
 * burst time - to czas, który proces potrzebuje na wykonanie wszystkich swoich instrukcji,
