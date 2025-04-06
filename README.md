@@ -31,7 +31,9 @@ After cloning the repository to the local machine, the simulator was launched us
 $ python main.py
 ```
 Then, the algorithm was selected from the menu - FCFS:
-fota menu
+<p align="left">
+  <img src="" alt="Opis obrazka" width="800"/>
+</p>
 Kolejno wybrano liczbę sumulacji:
 fota liczby symulacji 
 Podano zakresy parametrów procesów:
