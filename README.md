@@ -23,10 +23,8 @@ This is a project in which two process scheduling algorithms (FCFS, LCFS) and tw
   * **frame** - a place in memory where data is stored,
 
 ## HOW TO USE IT? 
-Użytkowanie symulatora jest bardzo proste, wystarczy sklonować te repozytorim, uruchomić projekt oraz postępować zgodnie z komendami wyświetlanymi w konsoli.
+Using the simulator is very simple; just clone the repository, run the project, and follow the commands displayed in the console.
 
-
-!!!
 ## EXAMPLE USAGE
 Po sklonowaniu repozytorim na lokalną maszynę uruchomiono symulator za pomocą komendy: 
 ```
