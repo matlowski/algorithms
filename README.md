@@ -16,6 +16,7 @@ This is a project in which two process scheduling algorithms (FCFS, LCFS) and tw
 ### Memory Paging Algorithms: 
 * **FIFO - First In First Out** - an algorithm that decides which page should be removed from the frame when it is necessary to free up space. FIFO removes the oldest page from memory (the one that has been in memory the longest).
 * **LRU - Least Recent Used** - a more advanced page replacement algorithm that removes the page that has been used the least recently, i.e., the one whose access to memory was the farthest in the past.
+
   Page replacement performance metrics:
   * **process** - a program or task executed by the operating system. It consists of pages, 
   * **page** - a portion of the process's data that is stored in a frame,
