@@ -26,11 +26,11 @@ This is a project in which two process scheduling algorithms (FCFS, LCFS) and tw
 Using the simulator is very simple; just clone the repository, run the project, and follow the commands displayed in the console.
 
 ## EXAMPLE USAGE
-Po sklonowaniu repozytorim na lokalną maszynę uruchomiono symulator za pomocą komendy: 
+After cloning the repository to the local machine, the simulator was launched using the command:
 ```
 $ python main.py
 ```
-Następnie z menu wybrano jeden algorytm - FCFS:
+Then, the algorithm was selected from the menu - FCFS:
 fota menu
 Kolejno wybrano liczbę sumulacji:
 fota liczby symulacji 
