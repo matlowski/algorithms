@@ -34,15 +34,11 @@ Then, the algorithm was selected from the menu - FCFS:
 <p align="left">
   <img src="" alt="Opis obrazka" width="800"/>
 </p>
-Next, the number of simulations was selected:
+Next, the number of simulations was selected, and the ranges of process parameters were provided
 <p align="left">
   <img src="" alt="Opis obrazka" width="800"/>
 </p>
-The ranges of process parameters were provided:
-<p align="left">
-  <img src="" alt="Opis obrazka" width="800"/>
-</p>
-"The result of the simulation:"
+The result of the simulation:
 <p align="left">
   <img src="" alt="Opis obrazka" width="800"/>
 </p>
