@@ -32,11 +32,11 @@ $ python main.py
 ```
 Then, the algorithm was selected from the menu - FCFS:
 <p align="left">
-  <img src="" alt="Opis obrazka" width="400"/>
+  <img src="images/menu.PNG" alt="Opis obrazka" width="400"/>
 </p>
 Next, the number of simulations was selected, and the ranges of process parameters were provided:
 <p align="left">
-  <img src="" alt="Opis obrazka" width="400"/>
+  <img src="images/parameters.PNG" alt="Opis obrazka" width="400"/>
 </p>
 The result of the simulation:
 <p align="left">
