@@ -40,5 +40,5 @@ Next, the number of simulations was selected, and the ranges of process paramete
 </p>
 The result of the simulation:
 <p align="left">
-  <img src="images/results.png" alt="Opis obrazka" width="700"/>
+  <img src="images/results.PNG" alt="Opis obrazka" width="700"/>
 </p>
